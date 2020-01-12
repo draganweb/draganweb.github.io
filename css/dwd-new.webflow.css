@@ -414,12 +414,15 @@ a:hover {
 
 .portfolio-preview-image {
   width: 320px;
+  height: 180px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 25px;
   box-shadow: 6px 6px 0 0 #7d7d7d;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .portfolio-preview-image:hover {
@@ -583,8 +586,11 @@ a:hover {
 
 .portfolio-item-image {
   width: 500px;
+  height: 280px;
   border-radius: 25px;
   box-shadow: 6px 6px 0 0 #7d7d7d;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .utility-page-wrap {

@@ -794,7 +794,7 @@ a:hover {
   padding: 20px;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .portfolio-item-paragraph {
     text-align: justify;
   }
